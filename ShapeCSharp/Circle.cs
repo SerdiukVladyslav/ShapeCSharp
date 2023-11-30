@@ -36,5 +36,10 @@ namespace ShapeCSharp
             double S = 3.14159 * radius * radius;
             Console.WriteLine("Площа кола: {0}", S);
         }
+
+        public override void Save(string file)
+        {
+            
+        }
     }
 }
