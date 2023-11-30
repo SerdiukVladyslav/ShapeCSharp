@@ -41,5 +41,10 @@ namespace ShapeCSharp
         {
             Console.WriteLine("Збереження кола у файл: " + file);
         }
+
+        public override void Load(string file)
+        {
+            
+        }
     }
 }
