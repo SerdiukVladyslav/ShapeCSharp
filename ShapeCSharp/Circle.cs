@@ -44,7 +44,7 @@ namespace ShapeCSharp
 
         public override void Load(string file)
         {
-            Console.WriteLine("Завантаження кола");
+            Console.WriteLine("Завантаження кола з файлу: ");
         }
     }
 }
