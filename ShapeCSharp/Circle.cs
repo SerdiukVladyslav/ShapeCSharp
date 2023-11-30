@@ -29,5 +29,10 @@ namespace ShapeCSharp
         {
             Console.WriteLine("Коло з центром ({0},{1}) i радiусом {2}", centerX, centerY, radius);
         }
+
+        public override void Area()
+        {
+            // 3.14159 - число пі. Радіус помножено на радіус, оскільки це радіус в квадраті (радіус у 2-му степені)
+        }
     }
 }
