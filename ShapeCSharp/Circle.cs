@@ -39,7 +39,7 @@ namespace ShapeCSharp
 
         public override void Save(string file)
         {
-            Console.WriteLine("Збереження кола у файл: ");
+            Console.WriteLine("Збереження кола у файл: " + file);
         }
     }
 }
