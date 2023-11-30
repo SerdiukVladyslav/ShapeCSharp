@@ -33,6 +33,8 @@ namespace ShapeCSharp
         public override void Area()
         {
             // 3.14159 - число пі. Радіус помножено на радіус, оскільки це радіус в квадраті (радіус у 2-му степені)
+            double S = 3.14159 * radius * radius;
+            Console.WriteLine("Площа кола: {0}", S);
         }
     }
 }
