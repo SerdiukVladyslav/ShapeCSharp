@@ -75,7 +75,7 @@ namespace ShapeCSharp
             Console.WriteLine("6. Вичислити площу фiгур указаного типу");
             Console.WriteLine("7. Збереження фiгур у файл");
             Console.WriteLine("8. Завантаження фiгур з файлу");
-            
+            Console.WriteLine("9. Вихiд");
             Console.Write("Введiть свiй вибiр: ");
         }
 
